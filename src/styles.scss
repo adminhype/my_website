@@ -1,1 +1,26 @@
-/* You can add global styles to this file, and also import other style files */
+// global css properties
+*{
+    box-sizing: border-box;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    text-decoration: none;
+}
+// fonts 
+@font-face {
+  font-family: "baloo";
+  src:
+    url('/assets/fonts/baloo-2-v22-latin/baloo-2-v22-latin-regular.woff2') format("woff");
+}
+@font-face {
+  font-family: "montserrat";
+  src:
+    url('/assets/fonts/montserrat-v30-latin/montserrat-v30-latin-regular.woff2') format("woff");
+}
+.fontBaloo{
+    font-family: 'baloo';
+}
+.fontMonte{
+    font-family: 'montserrat';
+}
