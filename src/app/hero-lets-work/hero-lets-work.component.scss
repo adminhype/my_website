@@ -1,0 +1,57 @@
+.work-together {
+  //   padding: 6rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: visible;
+}
+.elipse {
+  position: absolute;
+  z-index: 0;
+  pointer-events: none;
+}
+.elipse-large {
+  width: 200px;
+  top: -20%;
+  left: 50%;
+}
+.elipse-small {
+  width: 50px;
+  right: -5%;
+  top: 20%;
+  left: 80%;
+}
+.work-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 110px;
+
+  h1 {
+    font-size: 8rem;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: 1%;
+  }
+  p {
+    color: black;
+  }
+  .link-to {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .message-btn {
+    background-color: white;
+    width: 254px;
+    height: 58px;
+    border-radius: 10px;
+    border: 2px solid #5988ff;
+    padding: 15px 30px 15px 30px;
+    gap: 10px;
+    font-size: 23px;
+    line-height: 1.2%;
+    font-weight: 400px;
+  }
+}

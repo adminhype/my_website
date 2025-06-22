@@ -6,6 +6,9 @@
     padding: 0;
     scroll-behavior: smooth;
     text-decoration: none;
+    font-family: "baloo", "montserrat";
+    color: #5988FF;
+
 }
 // fonts 
 @font-face {
@@ -24,6 +27,23 @@
 .fontMonte{
     font-family: 'montserrat';
 }
-body{
-  background-color: bisque;
+.container {
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+.main-container {
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    flex-direction: column;
+}
+.container-wide-screen {
+    width: 100%;
+    margin: 0 auto;
 }

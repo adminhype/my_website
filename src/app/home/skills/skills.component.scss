@@ -1,0 +1,19 @@
+.skill-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("/assets/images/skills/Frame 43.png");
+  height: 50vh;
+  color: white;
+}
+.skill-text {
+  h2 {
+    color: white;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+  }
+}
+.item-container {
+  width: 64px;
+  height: 64px;
+}
