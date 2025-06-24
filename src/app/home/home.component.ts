@@ -5,6 +5,7 @@ import { HeroLetsWorkComponent } from '../hero-lets-work/hero-lets-work.componen
 import { SkillsComponent } from './skills/skills.component';
 import { WorkComponent } from './work/work.component';
 import { WorkCardComponent } from './work/work-card/work-card.component';
+import { ContactComponent } from './contact/contact.component';
 
 @Component({
   selector: 'app-home',
@@ -15,6 +16,7 @@ import { WorkCardComponent } from './work/work-card/work-card.component';
     SkillsComponent,
     WorkComponent,
     WorkCardComponent,
+    ContactComponent,
   ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss',
