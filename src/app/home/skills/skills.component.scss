@@ -1,19 +1,29 @@
-.skill-section {
+section {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   background-image: url("/assets/images/skills/Frame 43.png");
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
   height: 50vh;
   color: white;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .skill-text {
   h2 {
     color: white;
-    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+    // text-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+    font-size: 4rem;
   }
 }
-.item-container {
+.icon-container {
   width: 64px;
   height: 64px;
 }

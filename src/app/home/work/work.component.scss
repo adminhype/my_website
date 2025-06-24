@@ -1,0 +1,45 @@
+section {
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 80px;
+  }
+  h2 {
+    font-size: 8rem;
+  }
+
+  .work-title {
+    p {
+      font-size: 1.125rem;
+      line-height: 1.5;
+      color: #333;
+    }
+  }
+  .circle {
+    width: 400px;
+    height: 400px;
+
+    .circle-large,
+    .circle-small {
+      position: absolute;
+      display: block;
+    }
+
+    .circle-large {
+      // big Circle
+      width: 200px;
+      height: 200px;
+      bottom: 20%;
+    }
+
+    .circle-small {
+      // small circle
+      width: 80px;
+      height: 80px;
+      top: 10%;
+      left: -100%;
+    }
+  }
+}

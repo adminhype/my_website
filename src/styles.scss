@@ -1,49 +1,39 @@
 // global css properties
-*{
-    box-sizing: border-box;
-    position: relative;
-    margin: 0;
-    padding: 0;
-    scroll-behavior: smooth;
-    text-decoration: none;
-    font-family: "baloo", "montserrat";
-    color: #5988FF;
-
+* {
+  box-sizing: border-box;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  text-decoration: none;
+  font-family: "baloo", "montserrat";
+  color: #5988ff;
 }
-// fonts 
+// fonts
 @font-face {
   font-family: "baloo";
-  src:
-    url('/assets/fonts/baloo-2-v22-latin/baloo-2-v22-latin-regular.woff2') format("woff");
+  src: url("/assets/fonts/baloo-2-v22-latin/baloo-2-v22-latin-regular.woff2")
+    format("woff");
 }
 @font-face {
   font-family: "montserrat";
-  src:
-    url('/assets/fonts/montserrat-v30-latin/montserrat-v30-latin-regular.woff2') format("woff");
+  src: url("/assets/fonts/montserrat-v30-latin/montserrat-v30-latin-regular.woff2")
+    format("woff");
 }
-.fontBaloo{
-    font-family: 'baloo';
+.fontBaloo {
+  font-family: "baloo";
 }
-.fontMonte{
-    font-family: 'montserrat';
+.fontMonte {
+  font-family: "montserrat";
 }
-.container {
+header,
+section,
+footer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  .content {
     width: 100%;
     max-width: 1920px;
-    margin: 0 auto;
-    padding: 1rem;
-}
-.main-container {
-    width: 100%;
-    max-width: 1920px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem;
-    flex-direction: column;
-}
-.container-wide-screen {
-    width: 100%;
-    margin: 0 auto;
+  }
 }
