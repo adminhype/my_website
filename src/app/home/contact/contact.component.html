@@ -1,9 +1,20 @@
 <section>
   <div class="content">
-    <div></div>
+    <div class="contact-title">
+      <h2>Contact</h2>
+      <h3>Got a problem to solve?</h3>
+      <p>
+        Contact me thorugh this form, i am interestes in hearing <br />
+        from you, knowing your ideas and contributing to your project with my
+        work
+        <br />
+      </p>
+      <h4>Need a Fullstack developer? <strong>Contact me!</strong></h4>
+      <a href="/" class="up-icon"> </a>
+    </div>
     <div class="container">
       <form (submit)="onSubmit(contactForm)" #contactForm="ngForm">
-        <label for="name">Your Name</label>
+        <label for="name"></label>
         <input
           [(ngModel)]="contactData.name"
           type="text"
@@ -13,7 +24,7 @@
           required
         />
 
-        <label for="email">Your email</label>
+        <label for="email"></label>
         <input
           [(ngModel)]="contactData.email"
           type="email"
@@ -24,7 +35,7 @@
           pattern="[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}"
         />
 
-        <label for="message">Subject</label>
+        <label for="message"></label>
         <textarea
           #message="ngModel"
           [(ngModel)]="contactData.message"
@@ -37,7 +48,11 @@
         @if(!message.valid && message.touched) {
         <span>Your message is empty</span>
         }
-        <input type="submit" value="Submit" />
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" />
+        <label for="vehicle1"> I have a bike ?????</label><br />
+        <button>
+          <input type="submit" value="Submit" />
+        </button>
       </form>
     </div>
   </div>

@@ -1,25 +1,75 @@
+section {
+  margin-top: 80px;
+}
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+h2 {
+  font-size: 8rem;
+}
+
+.contact-title {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+  h3 {
+    font-size: 2rem;
+  }
+  p {
+    font-size: 1.125rem;
+    line-height: 1.5;
+    color: #333;
+  }
+  a {
+    background: #5988ff;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      width: 80%;
+    }
+  }
+  .up-icon {
+    width: 40px;
+    height: 40px;
+    background-image: url("/assets/images/contact/Property 1=Default.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .up-icon:hover {
+    background: white;
+    background-image: url("/assets/images/contact/Property 1=Variant2.png");
+  }
+}
+
 /* Style inputs with type="text", select elements and textareas */
 input[type="text"],
 [type="email"],
 select,
 textarea {
-  width: 100%; /* Full width */
-  padding: 12px; /* Some padding */
-  border: 1px solid #ccc; /* Gray border */
-  border-radius: 4px; /* Rounded borders */
-  box-sizing: border-box; /* Make sure that padding and width stays in place */
-  margin-top: 6px; /* Add a top margin */
-  margin-bottom: 16px; /* Bottom margin */
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #5988ff70;
+  border-radius: 5px;
+  margin-top: 6px;
+  margin-bottom: 16px;
   resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
 /* Style the submit button with a specific background color etc */
 input[type="submit"] {
-  background-color: #5988ff;
-  color: white;
+  color: #5988ff;
   padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
+  border: 1px solid #5988ff;
+  border-radius: 5px;
   cursor: pointer;
 }
 
@@ -31,6 +81,8 @@ input[type="submit"]:hover {
 /* Add a background color and some padding around the form */
 .container {
   border-radius: 5px;
-  background-color: #f2f2f2;
   padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
