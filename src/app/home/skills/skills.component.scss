@@ -19,11 +19,53 @@ section {
 .skill-text {
   h2 {
     color: white;
-    // text-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
     font-size: 4rem;
+    margin-bottom: 2rem;
   }
 }
+.skills-flex {
+  display: flex;
+  flex-direction: row;
+  gap: 2.5rem;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+}
 .icon-container {
-  width: 64px;
-  height: 64px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90px;
+
+  img {
+    width: 64px;
+    height: 64px;
+    margin-bottom: 0.5rem;
+    object-fit: contain;
+  }
+  p {
+    font-size: 1rem;
+    color: white;
+  }
+
+  &:hover img {
+    animation-name: translateIcons;
+    animation-duration: 0.3s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+  }
+  &:hover p {
+    color: #ffffff;
+    font-weight: bold;
+  }
+}
+
+@keyframes translateIcons {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateY(-14px);
+  }
 }

@@ -69,10 +69,26 @@ section {
   flex-direction: column;
   align-items: center;
   gap: 1rem;
+
+  img:hover {
+    animation-name: translateIcons;
+    animation-duration: 0.3s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+  }
 }
 .scroll-icons {
   img {
     width: 32px;
     height: 100%;
+  }
+}
+
+@keyframes translateIcons {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-10px);
   }
 }
