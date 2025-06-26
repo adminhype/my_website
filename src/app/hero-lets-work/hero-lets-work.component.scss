@@ -1,56 +1,65 @@
 section {
-  // align-items: center;
   overflow: visible;
-}
-.content {
-  display: flex;
-}
-.circle {
-  position: absolute;
-  z-index: 0;
-}
-.circle-large {
-  width: 200px;
-  top: -20%;
-  left: 50%;
-}
-.circle-small {
-  width: 50px;
-  right: -5%;
-  top: 20%;
-  left: 80%;
-}
-.work-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 110px;
+  .circle {
+    position: absolute;
+    z-index: 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
+  .circle-large {
+    width: 200px;
+    height: 200px;
+    top: -20%;
+    left: 50%;
+    background-image: url("/assets/images/hero/Ellipse 5.png");
+  }
 
-  h1 {
-    font-size: 8rem;
-    font-weight: 400;
-    line-height: 1;
-    letter-spacing: 1%;
+  .circle-small {
+    width: 50px;
+    height: 50px;
+    top: 20%;
+    left: 80%;
+    background-image: url("/assets/images/hero/Ellipse 6.png");
   }
-  p {
-    color: black;
-  }
-  .link-to {
+  .work-container {
     display: flex;
     justify-content: center;
     align-items: center;
-  }
+    margin: 110px;
 
-  .message-btn {
-    background-color: white;
-    width: 254px;
-    height: 58px;
-    border-radius: 10px;
-    border: 2px solid #5988ff;
-    padding: 15px 30px 15px 30px;
-    gap: 10px;
-    font-size: 23px;
-    line-height: 1.2%;
-    font-weight: 400px;
+    h1 {
+      font-size: 8rem;
+      font-weight: 400;
+      line-height: 1;
+      letter-spacing: 1%;
+    }
+    p {
+      color: black;
+    }
+    .link-to {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .message-btn {
+      background: transparent;
+      width: 254px;
+      height: 58px;
+      border-radius: 10px;
+      border: 2px solid #5988ff;
+      padding: 15px 30px;
+      font-size: 23px;
+      line-height: 1.2;
+      font-weight: 400;
+      color: #5988ff;
+      cursor: pointer;
+      transition: background 0.4s ease-in-out, color 0.4s ease-in-out;
+    }
+
+    .message-btn:hover {
+      background: linear-gradient(#5988ff);
+      color: #ffffff;
+    }
   }
 }
