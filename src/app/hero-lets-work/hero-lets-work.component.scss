@@ -44,22 +44,20 @@ section {
     }
     .message-btn {
       background: transparent;
-      width: 254px;
-      height: 58px;
       border-radius: 10px;
       border: 2px solid #5988ff;
-      padding: 15px 30px;
-      font-size: 23px;
+      padding: 0.7em 2em;
+      font-size: 1.1rem;
       line-height: 1.2;
-      font-weight: 400;
+      font-weight: 500;
       color: #5988ff;
       cursor: pointer;
-      transition: background 0.4s ease-in-out, color 0.4s ease-in-out;
+      transition: background 0.4s, color 0.4s;
     }
 
     .message-btn:hover {
-      background: linear-gradient(#5988ff);
-      color: #ffffff;
+      background: linear-gradient(#5988ff, #377cff 90%);
+      color: #fff;
     }
   }
 }

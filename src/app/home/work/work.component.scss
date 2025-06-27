@@ -3,7 +3,6 @@ section {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100%;
     padding: 0 80px 0 80px;
   }
   h2 {
@@ -12,7 +11,7 @@ section {
 
   .work-title {
     p {
-      font-size: 1.125rem;
+      font-size: 1rem;
       line-height: 1.5;
       color: #333;
     }
@@ -24,22 +23,35 @@ section {
     .circle-large,
     .circle-small {
       position: absolute;
-      display: block;
+      z-index: 0;
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
     }
 
     .circle-large {
-      // big Circle
       width: 200px;
       height: 200px;
-      bottom: 20%;
+      bottom: 0;
+      left: 40%; // oder wie du es möchtest
+      background-image: url("/assets/images/work/Ellipse 8.png");
     }
 
     .circle-small {
-      // small circle
       width: 80px;
       height: 80px;
       top: 10%;
-      left: -100%;
+      left: -150%;
+      background-image: url("/assets/images/work/Ellipse 7.png");
     }
+  }
+}
+
+@keyframes translateIcons {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateY(-14px);
   }
 }
