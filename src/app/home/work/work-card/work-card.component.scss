@@ -20,7 +20,7 @@ section {
       }
       &:hover img {
         animation-name: translateIcons;
-        animation-duration: 0.3s;
+        animation-duration: 0.1s;
         animation-timing-function: ease-in-out;
         animation-fill-mode: forwards;
       }
@@ -57,7 +57,6 @@ section {
         background: transparent;
         font-size: 1rem;
         cursor: pointer;
-        transition: background 0.4s, color 0.4s;
 
         &:hover {
           background: linear-gradient(#5988ff, #377cff 90%);
@@ -70,9 +69,9 @@ section {
 
 @keyframes translateIcons {
   0% {
-    transform: translateX(0);
+    transform: translateY(0) scale(1);
   }
   100% {
-    transform: translateY(-14px);
+    transform: translateY(-20px) scale(1.1);
   }
 }
