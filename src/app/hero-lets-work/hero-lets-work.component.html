@@ -4,20 +4,14 @@
     <div class="circle circle-small"></div>
     <div class="work-container">
       <div>
-        <h1>lets work together</h1>
+        <h1>{{ "aboutMe.title" | translate }}</h1>
       </div>
       <div class="about-me">
-        <p>
-          i am a Fullstack-developer based in Bremen, <br />
-          Germany. I enjoy helping designers and <br />
-          companies bring their ideas into real life. i am looking forward to
-          continuing my developer career with a job in a junior dingens
-          position.
-          <br /><br />
-          if you think i'd be a good match for your projects, contact me! bruw
-        </p>
+        <p>{{ "aboutMe.description" | translate }}</p>
         <a class="link-to" href="">
-          <a class="message-btn" href="#contact">Send a message</a>
+          <a class="message-btn" href="#contact">
+            {{ "aboutMe.button" | translate }}</a
+          >
         </a>
       </div>
     </div>
