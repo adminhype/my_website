@@ -2,27 +2,14 @@ section {
   height: 100vh;
   background-image: url("/assets/images/hero/hero bg.png");
   background-size: cover;
-  background-position: top center;
+  background-position: center;
   background-repeat: no-repeat;
-  display: flex;
-  align-items: center;
 }
 
 .content {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-inline: clamp(1rem, 10%, 12rem);
-}
-.hero-image {
-  flex: 1;
-  max-width: 40%;
-  width: 30vw;
-  margin-bottom: -30vh;
-  img {
-    width: 400px;
-    height: 400px;
-  }
 }
 .hero-text {
   margin-left: 12rem;

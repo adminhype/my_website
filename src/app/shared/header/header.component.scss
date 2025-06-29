@@ -1,3 +1,5 @@
+@use "../../styles/all-styles.scss" as all;
+
 header {
   position: sticky;
   margin-top: -96px;
@@ -6,21 +8,18 @@ header {
   z-index: 1;
   background-color: rgba(255, 255, 255, 0.85);
   backdrop-filter: blur(6px);
+  padding: 1rem;
   .logo {
-    cursor: pointer;
     img {
       height: 64px;
       width: 64px;
     }
   }
   nav {
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    padding: 1rem;
+    @include all.dFlexCenter($jc: space-around);
     .links {
-      font-size: 2rem;
       display: flex;
+      font-size: 2rem;
       gap: 2rem;
     }
     a {
@@ -29,22 +28,16 @@ header {
       }
     }
     .nav-btns {
-      display: flex;
-      justify-content: ce;
-      align-items: center;
-      margin-left: 1rem;
-      border-radius: 5px;
+      @include all.dFlexCenter;
+      gap: 0.5rem;
 
       button {
-        display: flex;
-        justify-content: center;
-        cursor: pointer;
-        border-radius: 5px 0;
-        background: none;
+        @include all.dFlexCenter;
+        border-radius: 50%;
         height: 1rem;
         width: 1rem;
         padding: 1rem;
-        border: solid 1px blue;
+        border: solid 1px #3366ff;
         &:hover {
           background: #5988ff;
           color: #fff;
