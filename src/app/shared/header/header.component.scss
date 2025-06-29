@@ -1,10 +1,11 @@
 header {
-  margin-bottom: -112px;
-  padding: 18px 0 18px 0;
+  position: sticky;
+  margin-top: -96px;
   width: 100%;
   top: 0;
   z-index: 1;
-
+  background-color: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(6px);
   .logo {
     cursor: pointer;
     img {
@@ -14,8 +15,9 @@ header {
   }
   nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: start;
     align-items: center;
+    padding: 1rem;
     .links {
       font-size: 2rem;
       display: flex;
@@ -24,6 +26,29 @@ header {
     a {
       &:hover {
         font-weight: bold;
+      }
+    }
+    .nav-btns {
+      display: flex;
+      justify-content: ce;
+      align-items: center;
+      margin-left: 1rem;
+      border-radius: 5px;
+
+      button {
+        display: flex;
+        justify-content: center;
+        cursor: pointer;
+        border-radius: 5px 0;
+        background: none;
+        height: 1rem;
+        width: 1rem;
+        padding: 1rem;
+        border: solid 1px blue;
+        &:hover {
+          background: #5988ff;
+          color: #fff;
+        }
       }
     }
   }
