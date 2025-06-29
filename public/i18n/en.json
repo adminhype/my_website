@@ -1,16 +1,37 @@
 
 
+
 {
-  "header": {
-    "navLinks": [
-      "About me",
-      "My Work",
-      "Contact"
-    ]
+    "header": {
+    "links": {
+      "aboutMe": "About me",
+      "myWork": "My Work",
+      "contact": "Contact"
+    }
+  },
+  "hero": {
+    "imageAlt": "Hero image",
+    "greeting": "Howdy! I am Adem",
+    "roles": [
+      "FULLSTACK",
+      "DEVELOPER"
+    ],
+    "scroll": {
+      "text": "Scroll",
+      "alt": "Scroll arrow"
+    },
+    "social": {
+      "linkedin": "LinkedIn",
+      "email": "E-Mail",
+      "github": "GitHub"
+    }
   },
   "aboutMe": {
     "title": "Let's work together",
     "description": "I am a Fullstack-developer based in Bremen, Germany. I enjoy helping designers and companies bring their ideas to real life. I am looking forward to continuing my developer career in a junior position. If you think I'd be a good match for your projects, contact me!",
     "button": "Send a message"
+  },
+    "skills": {
+    "title": "Skill set"
   }
 }

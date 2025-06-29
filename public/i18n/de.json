@@ -1,15 +1,34 @@
-
 {
   "header": {
-    "navLinks": [
-      "Über mich",
-      "Meine Arbeit",
-      "Kontakt"
-    ]
-},
+    "links": {
+      "aboutMe": "Über mich",
+      "myWork": "Meine Arbeit",
+      "contact": "Kontakt"
+    }
+  },
+    "hero": {
+    "imageAlt": "Hero-Bild",
+    "greeting": "Hallo! Ich bin Adem",
+    "roles": [
+      "FULLSTACK",
+      "DEVELOPER"
+    ],
+    "scroll": {
+      "text": "Scrollen",
+      "alt": "Scroll-Pfeil"
+    },
+    "social": {
+      "linkedin": "LinkedIn",
+      "email": "E-Mail",
+      "github": "GitHub"
+    }
+  },
   "aboutMe": {
     "title": "Lass uns zusammenarbeiten",
     "description": "Ich bin Fullstack-Entwickler mit Sitz in Bremen, Deutschland. Ich helfe Designern und Unternehmen dabei, ihre Ideen in die Realität umzusetzen. Ich freue mich darauf, meine Entwicklerkarriere in einer Junior-Position fortzusetzen. Wenn du denkst, ich passe gut zu deinen Projekten, kontaktiere mich!",
     "button": "Nachricht senden"
+  },
+    "skills": {
+    "title": "Fähigkeiten"
   }
 }
