@@ -4,8 +4,6 @@ import { Component } from '@angular/core';
   selector: 'app-work-card',
   imports: [],
   templateUrl: './work-card.component.html',
-  styleUrl: './work-card.component.scss'
+  styleUrl: './work-card.component.scss',
 })
-export class WorkCardComponent {
-
-}
+export class WorkCardComponent {}

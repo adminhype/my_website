@@ -2,7 +2,7 @@
 footer {
   background: #5988ff;
   color: #fff;
-  padding: 4rem 0;
+  padding: 0 56px;
 
   .content {
     display: flex;
@@ -20,7 +20,6 @@ footer {
       display: flex;
       flex-direction: column;
       align-items: center;
-      gap: 2rem;
       a {
         color: #fff;
         font-size: 0.9rem;
