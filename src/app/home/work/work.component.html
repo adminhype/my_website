@@ -1,18 +1,20 @@
 <section id="my-work">
   <div class="content">
-    <div class="work-title">
-      <h2>My work</h2>
-      <p>
-        Explore a selection of my work here – Interact with <br />projects to
-        see my skills in action.
-      </p>
+    <div class="work-content">
+      <div class="work-title">
+        <h2>My work</h2>
+        <p>
+          Explore a selection of my work here – Interact with <br />projects to
+          see my skills in action.
+        </p>
+      </div>
+      <div class="circle">
+        <div class="circle-large"></div>
+        <div class="circle-small"></div>
+      </div>
+      @for (project of projects; track project.id) {
+      <app-work-card [project]="project"></app-work-card>
+      }
     </div>
-    <div class="circle">
-      <div class="circle-large"></div>
-      <div class="circle-small"></div>
-    </div>
-    @for (project of projects; track project.id) {
-    <app-work-card [project]="project"></app-work-card>
-    }
   </div>
 </section>

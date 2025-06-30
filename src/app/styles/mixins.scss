@@ -1,17 +1,18 @@
-// @mixin dFlex($jc: center, $ai: center, $dir: column, $wrap: nowrap, $gap: 0) {
-//   display: flex;
-//   justify-content: $jc;
-//   align-items: $ai;
-//   flex-direction: $dir;
-//   flex-wrap: $wrap;
-//   gap: $gap;
-// }
 @mixin dFlexCenter($jc: center, $ai: center) {
   display: flex;
   justify-content: $jc;
   align-items: $ai;
 }
-
+@mixin dFlex($jc: start, $ai: center) {
+  display: flex;
+  justify-content: $jc;
+  align-items: $ai;
+}
+@mixin dFlexColumn($jc: center, $dir: row) {
+  display: flex;
+  justify-content: $jc;
+  flex-direction: $dir;
+}
 // Mobile
 @mixin mobile {
   @media (max-width: 640px) {
