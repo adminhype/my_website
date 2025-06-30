@@ -11,5 +11,8 @@
       <div class="circle-large"></div>
       <div class="circle-small"></div>
     </div>
+    @for (project of projects; track project.id) {
+    <app-work-card [project]="project"></app-work-card>
+    }
   </div>
 </section>

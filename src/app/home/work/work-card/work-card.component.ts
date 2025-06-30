@@ -1,4 +1,12 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+export interface Project {
+  id: number;
+  title: string;
+  tech: string;
+  description: string;
+  imageUrl: string;
+  githubUrl: string;
+}
 
 @Component({
   selector: 'app-work-card',
@@ -6,4 +14,6 @@ import { Component } from '@angular/core';
   templateUrl: './work-card.component.html',
   styleUrl: './work-card.component.scss',
 })
-export class WorkCardComponent {}
+export class WorkCardComponent {
+  @Input() project!: Project;
+}

@@ -1,20 +1,14 @@
 <section>
   <div class="content">
     <div class="hero-image">
-      <img
-        src="/assets/images/work/Property 1=Crypto converter photo.png"
-        alt="Kanban Screenshot"
-      />
+      <img [src]="project.imageUrl" [alt]="project.title" />
     </div>
     <div class="circle-decoration"></div>
     <div class="hero-text">
-      <h3>Join</h3>
-      <span>Angular | TypeScript | HTML | CSS | Firebase</span>
-      <p>
-        Task manager inspired by the Kanban System. Create and organize tasks
-        using drag-and-drop functions, assign users and categories.
-      </p>
-      <a class="github-btn" href="https://github.com/" target="_blank"
+      <h3>{{ project.title }}</h3>
+      <span>{{ project.tech }}</span>
+      <p>{{ project.description }}</p>
+      <a class="github-btn" [href]="project.githubUrl" target="_blank"
         >Github</a
       >
     </div>

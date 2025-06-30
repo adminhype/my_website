@@ -3,6 +3,7 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
+
     gap: 56px;
     padding: 0 80px;
 
@@ -55,7 +56,7 @@ section {
         cursor: pointer;
 
         &:hover {
-          background: linear-gradient(#5988ff, #377cff 90%);
+          background: linear-gradient(#5988ff, #377cff);
           color: #fff;
         }
       }
