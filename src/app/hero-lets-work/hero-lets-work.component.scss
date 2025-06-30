@@ -12,7 +12,7 @@ section {
     height: 200px;
     top: -20%;
     left: 40%;
-    background-image: url("/assets/images/hero/Ellipse 5.png");
+    background-image: url("../../../public/images/hero/Ellipse\ 5.png");
   }
 
   .circle-small {
@@ -20,17 +20,17 @@ section {
     height: 50px;
     top: 20%;
     left: 80%;
-    background-image: url("/assets/images/hero/Ellipse 6.png");
+    background-image: url("../../../public/images/hero/Ellipse\ 6.png");
   }
   .work-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 110px;
+    margin: 110px 56px;
 
     h1 {
       font-size: 8rem;
-      font-weight: 400;
+      font-weight: 900;
       line-height: 1;
       letter-spacing: 1%;
     }

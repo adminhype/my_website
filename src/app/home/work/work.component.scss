@@ -32,7 +32,7 @@
       height: 200px;
       bottom: 0;
       left: 100%;
-      background-image: url("/assets/images/work/Ellipse 8.png");
+      background-image: url("../../../../public/images/work/Ellipse\ 8.png");
     }
 
     .circle-small {
@@ -40,59 +40,7 @@
       height: 80px;
       top: 10%;
       left: 10%;
-      background-image: url("/assets/images/work/Ellipse 7.png");
+      background-image: url("../../../../public/images/work/Ellipse\ 7.png");
     }
   }
 }
-
-// section {
-//   .work-content {
-//     display: flex;
-//     justify-content: center;
-//   }
-//   h2 {
-//     font-size: 8rem;
-//   }
-//   .work-title {
-//     p {
-//       font-size: 1rem;
-//       line-height: 1.5;
-//       color: #333;
-//     }
-//   }
-//   .circle {
-//     .circle-large,
-//     .circle-small {
-//       position: absolute;
-//       z-index: 0;
-//       background-repeat: no-repeat;
-//       background-size: contain;
-//       background-position: center;
-//     }
-
-//     .circle-large {
-//       width: 200px;
-//       height: 200px;
-//       bottom: 0;
-//       left: 40%;
-//       background-image: url("/assets/images/work/Ellipse 8.png");
-//     }
-
-//     .circle-small {
-//       width: 80px;
-//       height: 80px;
-//       top: 10%;
-//       left: -150%;
-//       background-image: url("/assets/images/work/Ellipse 7.png");
-//     }
-//   }
-// }
-
-// @keyframes translateIcons {
-//   0% {
-//     transform: translateX(0);
-//   }
-//   100% {
-//     transform: translateY(-14px);
-//   }
-// }
