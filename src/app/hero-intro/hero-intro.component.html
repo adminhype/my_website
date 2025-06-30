@@ -1,42 +1,48 @@
 <section>
   <div class="content">
-    <img
-      class="hero-image"
-      src="/assets/images/hero/smiley.png"
-      [alt]="'hero.imageAlt' | translate"
-    />
-    <div class="hero-text">
-      <p>{{ "hero.greeting" | translate }}</p>
-      <span>{{ "hero.roles.0" | translate }}</span>
-      <span>{{ "hero.roles.1" | translate }}</span>
+    <div></div>
+    <div class="hero-left">
+      <div class="background-circle"></div>
+      <img
+        class="hero-image"
+        src="/assets/images/hero/smiley.png"
+        [alt]="'hero.imageAlt' | translate"
+      />
     </div>
-
-    <div class="scroll-section">
-      <div class="scroll-vector">
-        <p>{{ "hero.scroll.text" | translate }}</p>
-        <a href="#">
-          <img
-            src="/assets/images/hero/Vector 10.png"
-            [alt]="'hero.scroll.alt' | translate"
-          />
-        </a>
+    <div class="hero-right">
+      <div class="hero-text">
+        <p>{{ "hero.greeting" | translate }}</p>
+        <span>{{ "hero.roles.0" | translate }}</span>
+        <span>{{ "hero.roles.1" | translate }}</span>
       </div>
-      <div class="scroll-icons">
-        <a href="#">
-          <img
-            src="/assets/images/hero/Linkedin button s2.png"
-            [alt]="'hero.social.linkedin' | translate"
-        /></a>
-        <a href="#">
-          <img
-            src="/assets/images/hero/Email button s2.png"
-            [alt]="'hero.social.email' | translate"
-        /></a>
-        <a href="#"
-          ><img
-            src="/assets/images/hero/Github button s2.png"
-            [alt]="'hero.social.github' | translate"
-        /></a>
+
+      <div class="scroll-section">
+        <div class="scroll-vector">
+          <p>{{ "hero.scroll.text" | translate }}</p>
+          <a href="#">
+            <img
+              src="/assets/images/hero/Vector 10.png"
+              [alt]="'hero.scroll.alt' | translate"
+            />
+          </a>
+        </div>
+        <div class="scroll-icons">
+          <a href="#">
+            <img
+              src="/assets/images/hero/Linkedin button s2.png"
+              [alt]="'hero.social.linkedin' | translate"
+          /></a>
+          <a href="#">
+            <img
+              src="/assets/images/hero/Email button s2.png"
+              [alt]="'hero.social.email' | translate"
+          /></a>
+          <a href="#"
+            ><img
+              src="/assets/images/hero/Github button s2.png"
+              [alt]="'hero.social.github' | translate"
+          /></a>
+        </div>
       </div>
     </div>
   </div>

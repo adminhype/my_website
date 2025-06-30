@@ -16,7 +16,7 @@ header {
     }
   }
   nav {
-    @include all.dFlexCenter($jc: space-around);
+    @include all.dFlexCenter($jc: space-between);
     .links {
       display: flex;
       font-size: 2rem;
