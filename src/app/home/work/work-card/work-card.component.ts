@@ -7,7 +7,7 @@ export interface Project {
   imageUrl: string;
   githubUrl: string;
 }
-
+// todo interface outsource
 @Component({
   selector: 'app-work-card',
   imports: [],

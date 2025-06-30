@@ -15,7 +15,7 @@ export class WorkComponent {
       tech: 'Angular | TypeScript | HTML | CSS | Firebase',
       description:
         'Task manager inspiriert vom Kanban-System mit Drag-and-Drop.',
-      imageUrl: '/images/work/Property 1=join photo.png',
+      imageUrl: './images/work/Property 1=join photo.png',
       githubUrl: 'https://github.com/adminhype',
     },
     {
@@ -23,7 +23,7 @@ export class WorkComponent {
       title: 'Crypto Converter',
       tech: 'Angular | RxJS | APIs',
       description: 'Live-Umrechnung von Krypto-Werten über externe APIs.',
-      imageUrl: '/images/work/Property 1=Crypto converter photo.png',
+      imageUrl: './images/work/Property 1=Crypto converter photo.png',
       githubUrl: 'https://github.com/adminhype',
     },
   ];
