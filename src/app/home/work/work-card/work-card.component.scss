@@ -3,6 +3,9 @@
   justify-content: start;
   gap: 80px;
   padding: 56px;
+  &.reversed-layout {
+    flex-direction: row-reverse;
+  }
 }
 .content-left {
   cursor: pointer;

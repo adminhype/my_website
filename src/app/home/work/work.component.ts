@@ -34,5 +34,14 @@ export class WorkComponent {
       imageUrl: './images/work/Property 1=Pokédex photo.png',
       githubUrl: 'https://github.com/adminhype',
     },
+    {
+      id: 4,
+      title: 'El-Pololoco',
+      tech: 'Javascript | HTML | CSS',
+      description:
+        '2D Jump & Run game aufgebaut auf objekt orientiertes programmieren',
+      imageUrl: './images/work/Property 1=Pollo loco photo.png',
+      githubUrl: 'https://github.com/adminhype',
+    },
   ];
 }

@@ -1,3 +1,40 @@
+.work-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  gap: 3rem;
+
+  h1 {
+    font-size: 8rem;
+    font-weight: 900;
+    line-height: 1;
+    letter-spacing: 1;
+  }
+  p {
+    color: black;
+  }
+  .link-to {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .message-btn {
+    display: flex;
+    align-self: start;
+    padding: 0.75rem 2rem;
+    border: 2px solid #5988ff;
+    border-radius: 0.5rem;
+    background: transparent;
+    font-size: 1rem;
+  }
+
+  .message-btn:hover {
+    background: linear-gradient(#5988ff, #377cff);
+    color: #fff;
+  }
+}
 .circle {
   position: absolute;
   z-index: 0;
@@ -19,39 +56,4 @@
   top: 10vh;
   left: 70vw;
   background-image: url("../../../public/images/hero/Ellipse\ 6.png");
-}
-.work-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 110px 56px;
-
-  h1 {
-    font-size: 8rem;
-    font-weight: 900;
-    line-height: 1;
-    letter-spacing: 1;
-  }
-  p {
-    color: black;
-  }
-  .link-to {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .message-btn {
-    display: flex;
-    align-self: start;
-    padding: 0.75rem 2rem;
-    border: 2px solid #5988ff;
-    border-radius: 0.5rem;
-    background: transparent;
-    font-size: 1rem;
-  }
-
-  .message-btn:hover {
-    background: linear-gradient(#5988ff, #377cff);
-    color: #fff;
-  }
 }

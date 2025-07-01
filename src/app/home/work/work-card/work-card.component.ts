@@ -16,4 +16,5 @@ export interface Project {
 })
 export class WorkCardComponent {
   @Input() project!: Project;
+  @Input() reversed: boolean = false;
 }
