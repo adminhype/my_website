@@ -26,5 +26,13 @@ export class WorkComponent {
       imageUrl: './images/work/Property 1=Crypto converter photo.png',
       githubUrl: 'https://github.com/adminhype',
     },
+    {
+      id: 3,
+      title: 'Pokedex',
+      tech: 'Javascript | HTML | CSS | API',
+      description: 'Pokedex von Pokemon über externe APIs.',
+      imageUrl: './images/work/Property 1=Pokédex photo.png',
+      githubUrl: 'https://github.com/adminhype',
+    },
   ];
 }
