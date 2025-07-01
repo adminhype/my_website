@@ -26,11 +26,11 @@
       "github": "GitHub"
     }
   },
-  "aboutMe": {
-    "title": "Let's work together",
-    "description": "I am a Fullstack-developer based in Bremen, Germany. I enjoy helping designers and companies bring their ideas to real life. I am looking forward to continuing my developer career in a junior position. If you think I'd be a good match for your projects, contact me!",
-    "button": "Send a message"
-  },
+"aboutMe": {
+  "title": "Let's work \n together",
+  "description": "I am a Fullstack-developer based in Bremen,\n Germany. I enjoy helping designers and \n companies bring their ideas to real life. I am \n looking forward to continuing my developer \n career in a junior position. \n \n If you think I'd be a good match for your projects, contact me!",
+  "button": "Send a message"
+},
     "skills": {
     "title": "Skill set"
   }

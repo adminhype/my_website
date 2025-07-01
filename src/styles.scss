@@ -38,6 +38,13 @@ footer {
     max-width: 1920px;
   }
 }
+h1,
+h2,
+h3,
+p,
+span {
+  white-space: pre-line;
+}
 button,
 a {
   cursor: pointer;

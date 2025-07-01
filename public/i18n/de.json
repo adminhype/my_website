@@ -23,11 +23,11 @@
       "github": "GitHub"
     }
   },
-  "aboutMe": {
-    "title": "Lass uns zusammenarbeiten",
-    "description": "Ich bin Fullstack-Entwickler mit Sitz in Bremen, Deutschland. Ich helfe Designern und Unternehmen dabei, ihre Ideen in die Realität umzusetzen. Ich freue mich darauf, meine Entwicklerkarriere in einer Junior-Position fortzusetzen. Wenn du denkst, ich passe gut zu deinen Projekten, kontaktiere mich!",
-    "button": "Nachricht senden"
-  },
+"aboutMe": {
+  "title": "Lass uns \n zusammen \n arbeiten",
+  "description": "Ich bin Fullstack-Entwickler mit Sitz in Bremen, \n Deutschland. Ich helfe Designern und \n Unternehmen dabei, ihre Ideen in die Realität umzusetzen. \n Ich freue mich darauf, meine Entwicklerkarriere \n in einer Junior-Position fortzusetzen. \n \n Wenn du denkst, ich passe gut zu deinen Projekten, kontaktiere mich!",
+  "button": "Nachricht senden"
+},
     "skills": {
     "title": "Fähigkeiten"
   }

@@ -1,14 +1,9 @@
-section {
+.hero-container {
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: end;
   background: linear-gradient(to bottom, #ffffff, #eaf0ff);
-}
-.content {
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 .background-circle {
   position: absolute;
@@ -17,7 +12,7 @@ section {
   background-color: #4a80ff;
   border-radius: 50%;
   left: -35vw;
-  top: -30vh;
+  top: -60vh;
   z-index: 0;
 }
 .hero-left {
@@ -59,7 +54,8 @@ section {
   .scroll-section {
     display: flex;
     align-items: center;
-    gap: 32px;
+    gap: 8rem;
+    margin-left: 10vw;
   }
   .scroll-vector {
     display: flex;
@@ -72,6 +68,7 @@ section {
       font-size: 0.9rem;
       letter-spacing: 0.1rem;
       color: #4a73ff;
+      text-transform: uppercase;
     }
   }
   .scroll-icons {
