@@ -13,34 +13,31 @@
     p {
       color: #000;
       line-height: 1rem;
+      font-size: 1.5rem;
     }
   }
-  .circle {
-    width: 500px;
-    height: 250px;
-    .circle-large,
-    .circle-small {
-      position: absolute;
-      z-index: 0;
-      background-repeat: no-repeat;
-      background-size: contain;
-      background-position: center;
-    }
+  .circle-large,
+  .circle-small {
+    position: absolute;
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
 
-    .circle-large {
-      width: 200px;
-      height: 200px;
-      bottom: 0;
-      left: 100%;
-      background-image: url("../../../../public/images/work/Ellipse\ 8.png");
-    }
+  .circle-large {
+    width: 15vw;
+    height: 15vw;
+    bottom: -5%;
+    left: 80%;
+    background-image: url("../../../../public/images/work/Ellipse\ 8.png");
+  }
 
-    .circle-small {
-      width: 80px;
-      height: 80px;
-      top: 10%;
-      left: 10%;
-      background-image: url("../../../../public/images/work/Ellipse\ 7.png");
-    }
+  .circle-small {
+    width: 8vw;
+    height: 8vw;
+    top: 10%;
+    left: 40%;
+    background-image: url("../../../../public/images/work/Ellipse\ 7.png");
   }
 }

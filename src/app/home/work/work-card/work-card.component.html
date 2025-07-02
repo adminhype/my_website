@@ -9,11 +9,15 @@
           <h3>{{ project.title }}</h3>
           <span>{{ project.tech }}</span>
           <p>{{ project.description }}</p>
-          <a class="github-btn" [href]="project.githubUrl" target="_blank"
-            >Github</a
-          >
+          <div class="github-btn-container">
+            <a class="github-btn" [href]="project.githubUrl" target="_blank"
+              >Github</a
+            >
+          </div>
         </div>
       </div>
+      <div class="circle-large"></div>
+      <div class="circle-small"></div>
     </div>
   </div>
 </section>

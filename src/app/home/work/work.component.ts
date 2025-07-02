@@ -36,7 +36,7 @@ export class WorkComponent {
     },
     {
       id: 4,
-      title: 'El-Pololoco',
+      title: 'El-Polloco',
       tech: 'Javascript | HTML | CSS',
       description:
         '2D Jump & Run game aufgebaut auf objekt orientiertes programmieren',
